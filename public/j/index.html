@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>You've been invited to a Squaddle room</title>
+  <meta name="description" content="You've been invited to a Squaddle room. Open the link in the Squaddle app, or copy it to share.">
+  <meta name="robots" content="noindex">
+  <!-- Generic on purpose (CLAUDE.md): the server only ever sees the path, never the invite
+       secret, so this page can't and shouldn't render anything room-specific. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="You've been invited to a Squaddle room">
+  <meta property="og:description" content="Open this link in the Squaddle app to join.">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ff5d3a'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='white' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <div class="center-page">
+    <div class="card">
+      <div class="mark" aria-hidden="true"></div>
+      <h1>You've been invited to a Squaddle room</h1>
+      <p id="j-status">Checking the invite link&hellip;</p>
+
+      <div class="stack">
+        <a id="j-open" class="btn primary" href="#" aria-disabled="true" hidden>Open in app</a>
+        <button id="j-copy" class="btn" type="button" disabled>Copy invite link</button>
+        <p data-copy-status aria-live="polite"></p>
+      </div>
+
+      <p class="hint">
+        Don't have Squaddle yet?
+        <a href="#" rel="noopener">Get it on Google Play</a> ·
+        <a href="#" rel="noopener">F-Droid</a>
+        <br>(store links are placeholders — not published yet)
+      </p>
+
+      <noscript>
+        <p class="hint">This page needs JavaScript to open the app or copy the link. You can
+        still copy the full address from your browser's address bar.</p>
+      </noscript>
+    </div>
+  </div>
+  <script src="/j/app.js" defer></script>
+</body>
+</html>
