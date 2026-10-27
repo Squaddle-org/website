@@ -12,8 +12,12 @@
 (function () {
   "use strict";
 
+  // ADR-0009: webclient deploys to its own origin, not a path under squaddle.org.
+  var WEBAPP_ORIGIN = "https://app.squaddle.org";
+
   var statusEl = document.getElementById("j-status");
   var openEl = document.getElementById("j-open");
+  var webappEl = document.getElementById("j-webapp");
   var copyEl = document.getElementById("j-copy");
   var copyStatusEl = document.querySelector("[data-copy-status]");
 
@@ -54,6 +58,15 @@
     openEl.hidden = false;
     openEl.removeAttribute("aria-disabled");
   }
+
+  // "Open in browser": every browser, not just Android - the no-install fallback. Built from
+  // location.hash directly (client-side only, same rule as copyLink() below) since webclient's
+  // own /j/* route (router.ts) needs the real invite secret to join, not just the path. This
+  // never sends the fragment anywhere itself - it's placed in an href the *user* then navigates,
+  // exactly like clicking any other link.
+  webappEl.href = WEBAPP_ORIGIN + location.pathname + location.hash;
+  webappEl.hidden = false;
+  webappEl.removeAttribute("aria-disabled");
 
   copyEl.disabled = false;
   copyEl.addEventListener("click", function () {
