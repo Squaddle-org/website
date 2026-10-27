@@ -13,7 +13,7 @@
   "use strict";
 
   // ADR-0009: webclient deploys to its own origin, not a path under squaddle.org.
-  var WEBAPP_ORIGIN = "https://app.squaddle.org";
+  var WEBAPP_ORIGIN = "https://client.squaddle.org";
 
   var statusEl = document.getElementById("j-status");
   var openEl = document.getElementById("j-open");
