@@ -1,11 +1,11 @@
 {
-  "versionCode": 72,
-  "versionName": "0.1.4",
-  "downloadUrl": "https://github.com/squaddle-org/android/releases/download/v0.1.4/app-github-release.apk",
-  "sha256": "15375b9a4ccfdb03007a44a0359ddd7b37b780c7a7fa054f4aca8ae7800e83f5",
-  "minSupportedVersionCode": 72,
+  "versionCode": 74,
+  "versionName": "0.1.5",
+  "downloadUrl": "https://github.com/squaddle-org/android/releases/download/v0.1.5/app-github-release.apk",
+  "sha256": "1f1a586c6909aeed9927e97639f36c5930ab89ec31847eb481983ba245fd8e60",
+  "minSupportedVersionCode": 74,
   "notes": {
-    "en": "First release.",
-    "de": "Erstes Release."
+    "en": "Device linking via QR code - link a new browser/app install to your existing identity without typing the seed phrase.",
+    "de": "Geräteverknüpfung per QR-Code - verknüpfe eine neue Browser-/App-Installation mit deiner bestehenden Identität, ohne die Seed-Phrase einzugeben."
   }
 }
