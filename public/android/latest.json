@@ -1,11 +1,11 @@
 {
-  "versionCode": 0,
-  "versionName": "none",
-  "downloadUrl": "https://github.com/squaddle-org/android/releases",
-  "sha256": "",
-  "minSupportedVersionCode": 0,
+  "versionCode": 72,
+  "versionName": "0.1.4",
+  "downloadUrl": "https://github.com/squaddle-org/android/releases/download/v0.1.4/app-github-release.apk",
+  "sha256": "15375b9a4ccfdb03007a44a0359ddd7b37b780c7a7fa054f4aca8ae7800e83f5",
+  "minSupportedVersionCode": 72,
   "notes": {
-    "en": "No release has shipped yet.",
-    "de": "Es wurde noch kein Release veröffentlicht."
+    "en": "First release.",
+    "de": "Erstes Release."
   }
 }
