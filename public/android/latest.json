@@ -1,11 +1,12 @@
 {
-  "versionCode": 74,
-  "versionName": "0.1.5",
-  "downloadUrl": "https://github.com/squaddle-org/android/releases/download/v0.1.5/app-github-release.apk",
-  "sha256": "1f1a586c6909aeed9927e97639f36c5930ab89ec31847eb481983ba245fd8e60",
-  "minSupportedVersionCode": 74,
+  "versionCode": 76,
+  "versionName": "0.1.6",
+  "downloadUrl": "https://github.com/squaddle-org/android/releases/download/v0.1.6/app-github-release.apk",
+  "sha256": "0edd25c711f57a6ae33cf1e89b6622f7cf4a27b17b3bf993ce4b46b4f985ca4b",
+  "minSupportedVersionCode": 76,
   "notes": {
-    "en": "Device linking via QR code - link a new browser/app install to your existing identity without typing the seed phrase.",
-    "de": "Geräteverknüpfung per QR-Code - verknüpfe eine neue Browser-/App-Installation mit deiner bestehenden Identität, ohne die Seed-Phrase einzugeben."
+    "en": "Fixes a bug where a freshly-joined room could stay empty until the app was restarted, plus a dismiss button for the notification-setup hint.",
+    "de": "Behebt einen Fehler, bei dem ein frisch beigetretener Raum bis zum Neustart der App leer bleiben konnte, sowie ein Schließen-Button für den Benachrichtigungs-Hinweis."
   }
 }
+
