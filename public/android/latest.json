@@ -1,13 +1,14 @@
 {
-  "versionCode": 79,
-  "versionName": "0.1.9",
-  "downloadUrl": "https://github.com/squaddle-org/android/releases/download/v0.1.9/app-github-release.apk",
-  "sha256": "80efd7881459a837a4449ab5394a2c9c029f67311a1e8d82eb0c7fa801285827",
-  "minSupportedVersionCode": 79,
+  "versionCode": 81,
+  "versionName": "0.1.11",
+  "downloadUrl": "https://github.com/squaddle-org/android/releases/download/v0.1.11/app-github-release.apk",
+  "sha256": "debcb4b3301275e9028106deae9785a0c8df3f6fbf5e422f5f0aad101c649250",
+  "minSupportedVersionCode": 81,
   "notes": {
-    "en": "Fixes room names showing as the generic placeholder on invite links, display names not reaching other members, and a freshly-joined room staying empty until the app was restarted.",
-    "de": "Behebt Raumnamen, die bei Einladungslinks als generischer Platzhalter angezeigt wurden, Anzeigenamen, die andere Mitglieder nicht erreichten, sowie einen Fehler, bei dem ein frisch beigetretener Raum bis zum Neustart der App leer bleiben konnte."
+    "en": "Rooms now have a real, synced name - rename a room (admin/owner only) and it reaches every member, instead of only ever being a guess made at invite time.",
+    "de": "Räume haben jetzt einen echten, synchronisierten Namen - ein Raum kann umbenannt werden (nur Admins/Besitzer), und die Änderung erreicht alle Mitglieder, statt nur eine Vermutung beim Einladen zu sein."
   }
 }
+
 
 
